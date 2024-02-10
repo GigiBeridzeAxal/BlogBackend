@@ -5,6 +5,6 @@ const router = express.Router()
 
 
 
-router.route('/').get(getcontacts)
+
 router.route('/').post(Postcontacts)
 module.exports = router
